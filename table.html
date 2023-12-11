@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표를 만들어 보앙용~^^</title>
+    <style type="text/css"> 
+*{margin: 0px;padding: 0px;}
+
+
+
+    table{ border-width: 1px;
+    border-style: solid;
+border-color: gray;
+border-collapse: collapse;
+border-spacing: 0px;
+
+}
+    th{
+        border-width: 1px;
+        border-style: solid; 
+        border-color: rgb(31, 255, 2);
+    }
+        td{
+            border-width: 1px;
+            border-style: solid;
+            border-color: yellowgreen;
+        }
+        .first tr td{
+             width: 100px;
+             height: 50px; 
+             text-align: center;
+             }
+             .second {border: 0;}
+             .second tr td{border: 0;}
+                .second tr td img{
+                    width: 350px; 
+                    height: 350px;
+                    }
+                    .third {margin-bottom: 100px;margin-left: 30px;}
+                    .third caption {margin-bottom: 30px;}
+                    .third tr th{width:70px; font-weight: normal;}
+                    .third tr td{height:35px;text-align: center;}
+        </style>
+</head>
+<body>
+    <table class="first">
+    <tr>
+    <td>표보이죵</td><td>일러스트</td>
+    </tr>
+    </table><br><br><br>
+    <table class="second">
+        <tr>
+            <td><img src="subway/1102/danang_restaurant_9.jpeg" alt="마늘갈릭"></td>
+        </tr>
+        <tr>
+            <td><img src="subway/1102/danang_restaurant_19.jpeg" alt="뭔지모를국수"></td>
+        </tr>
+    </table>
+
+
+
+    <table class="third" ><br><br><br><br><br><br>
+        <caption>학/생/성/적/표</caption>
+    <thead>
+        <tr>
+        <th>이름</th><th>국어</th><th>영어</th><th>수학</th><th>결과</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>김성훈</td><td>100</td><td>100</td><td>100</td><td rowspan="3">0</td>
+    </tr>
+    <tr>
+        <td>박귀남</td><td>100</td><td>100</td><td>100</td>
+    </tr>
+    <tr>
+        <td>김준민</td><td>100</td><td>100</td><td>100</td>
+    </tr>
+</tbody>
+<tfoot>
+    <tr>
+<td colspan="5">※모두 백점입니다.하지만,결과는 빵점!!</td>
+
+    </tr>
+
+</tfoot>
+</table>
+</body>
+</html>
